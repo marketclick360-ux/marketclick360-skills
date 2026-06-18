@@ -1,0 +1,13 @@
+{
+  "name": "marketclick360-skills",
+  "owner": {
+    "name": "marketclick360-ux"
+  },
+  "plugins": [
+    {
+      "name": "mc360",
+      "source": "./claude-skills",
+      "description": "Shared Claude Code skills for all marketclick360 projects."
+    }
+  ]
+}
