@@ -33,3 +33,12 @@ the operator approves. Nothing client-facing sends without operator sign-off.
 
 Phase marked done with its checklist complete, client comms drafted (queued for
 operator approval, not sent), and the client vault updated with what happened.
+
+## Client vault
+
+Client context (facts, tone, tools, decisions, backlog) lives in the private
+`marketclick360-ux/agency-vault` repo, operated per the `agency-client-vault`
+skill. Read the client's `_CLIENT.md` card first — and `tone.md` before
+drafting anything client-facing. Write decisions, commitments, and requests
+back per that skill's Two-Output and propagation rules. Client data never
+enters this public skills repo.

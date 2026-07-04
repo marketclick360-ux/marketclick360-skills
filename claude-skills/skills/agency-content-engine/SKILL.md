@@ -28,3 +28,12 @@ publish without the operator's edit.
 - Every piece must contain one specific, earned detail. No generic AI-hype.
 - Outcomes over features: "recovered ~$9k/mo in missed follow-ups," not
   "uses MCP and sandboxed VMs."
+
+## Client vault
+
+Client context (facts, tone, tools, decisions, backlog) lives in the private
+`marketclick360-ux/agency-vault` repo, operated per the `agency-client-vault`
+skill. Read the client's `_CLIENT.md` card first — and `tone.md` before
+drafting anything client-facing. Write decisions, commitments, and requests
+back per that skill's Two-Output and propagation rules. Client data never
+enters this public skills repo.

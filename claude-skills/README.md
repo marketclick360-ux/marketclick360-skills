@@ -40,14 +40,18 @@ marketclick360-skills/
 │   ├── agency-scope-proposal/ # Tiers, proposals, repricing playbook
 │   ├── agency-weekly-report/  # Client reports + observability SOP
 │   ├── agency-content-engine/ # Delivery-to-content workflow + anonymization
-│   └── agency-niche-scorecard/# Day-90 niche decision scoring
+│   ├── agency-niche-scorecard/# Day-90 niche decision scoring
+│   └── agency-client-vault/   # Operating rules for the private client knowledge vault
 └── README.md
 ```
 
-The six `agency-*` skills implement the
+The seven `agency-*` skills implement the
 [MarketClick360 operating blueprint](https://github.com/marketclick360-ux/marketclick360/blob/main/docs/ai-agency-scaling-plan.md)
 — every reusable template, agent prompt, and SOP from the blueprint lives here
-as a loadable skill.
+as a loadable skill. `agency-client-vault` carries the conventions (AI-first
+notes, bi-temporal facts, propagation rules, scaffold script) for the vault
+itself, which lives in the **private** `agency-vault` repo — templates here,
+client data there, never mixed.
 
 ## How to organize a *complex* skill (the rules that matter)
 
