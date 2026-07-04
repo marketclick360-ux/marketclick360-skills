@@ -28,15 +28,26 @@ marketclick360-skills/
 │   │   │   └── DETAILS.md     # Loaded on demand
 │   │   └── scripts/
 │   │       └── example.py     # Executed, not loaded into context
-│   └── release-prep/          # A fully worked multi-file example
-│       ├── SKILL.md
-│       ├── reference/
-│       │   ├── checklist.md
-│       │   └── versioning.md
-│       └── scripts/
-│           └── changelog.py
+│   ├── release-prep/          # A fully worked multi-file example
+│   │   ├── SKILL.md
+│   │   ├── reference/
+│   │   │   ├── checklist.md
+│   │   │   └── versioning.md
+│   │   └── scripts/
+│   │       └── changelog.py
+│   ├── agency-onboarding/     # Client install pipeline SOP + comms + intake system
+│   ├── agency-agent-prompts/  # System prompts for the internal agent bench
+│   ├── agency-scope-proposal/ # Tiers, proposals, repricing playbook
+│   ├── agency-weekly-report/  # Client reports + observability SOP
+│   ├── agency-content-engine/ # Delivery-to-content workflow + anonymization
+│   └── agency-niche-scorecard/# Day-90 niche decision scoring
 └── README.md
 ```
+
+The six `agency-*` skills implement the
+[MarketClick360 operating blueprint](https://github.com/marketclick360-ux/marketclick360/blob/main/docs/ai-agency-scaling-plan.md)
+— every reusable template, agent prompt, and SOP from the blueprint lives here
+as a loadable skill.
 
 ## How to organize a *complex* skill (the rules that matter)
 
