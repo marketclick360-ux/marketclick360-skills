@@ -26,3 +26,12 @@ outcome — re-run in 30 days.
 - One good client is an anecdote, not a niche. Minimum: 2 clients in a
   vertical OR 1 client + 3 same-vertical pipeline conversations.
 - The operator makes the final call — this skill only arms it.
+
+## Client vault
+
+Client context (facts, tone, tools, decisions, backlog) lives in the private
+`marketclick360-ux/agency-vault` repo, operated per the `agency-client-vault`
+skill. Read the client's `_CLIENT.md` card first — and `tone.md` before
+drafting anything client-facing. Write decisions, commitments, and requests
+back per that skill's Two-Output and propagation rules. Client data never
+enters this public skills repo.

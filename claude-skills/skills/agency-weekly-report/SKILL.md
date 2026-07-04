@@ -27,3 +27,12 @@ it ships every Monday, no exceptions. Observability is what makes it truthful.
 
 A queued report draft (or a monitoring configuration / incident notice) with
 every number traceable to the metric store.
+
+## Client vault
+
+Client context (facts, tone, tools, decisions, backlog) lives in the private
+`marketclick360-ux/agency-vault` repo, operated per the `agency-client-vault`
+skill. Read the client's `_CLIENT.md` card first — and `tone.md` before
+drafting anything client-facing. Write decisions, commitments, and requests
+back per that skill's Two-Output and propagation rules. Client data never
+enters this public skills repo.

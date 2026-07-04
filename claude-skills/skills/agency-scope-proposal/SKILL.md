@@ -27,3 +27,12 @@ evidence. The operator always sets final price — nothing here auto-sends.
 
 A draft scope + proposal (or renewal one-pager) queued for operator pricing
 and approval, with any tier-fit ambiguity flagged rather than resolved silently.
+
+## Client vault
+
+Client context (facts, tone, tools, decisions, backlog) lives in the private
+`marketclick360-ux/agency-vault` repo, operated per the `agency-client-vault`
+skill. Read the client's `_CLIENT.md` card first — and `tone.md` before
+drafting anything client-facing. Write decisions, commitments, and requests
+back per that skill's Two-Output and propagation rules. Client data never
+enters this public skills repo.

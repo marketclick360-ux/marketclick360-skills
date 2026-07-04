@@ -29,3 +29,12 @@ Client Success Agent exists per client; the rest are a shared bench.
 - Pricing, renewals, and permission grants are operator-only.
 - Missing information is reported as a gap, never invented.
 - Every new reusable component gets deposited back into this repo.
+
+## Client vault
+
+Client context (facts, tone, tools, decisions, backlog) lives in the private
+`marketclick360-ux/agency-vault` repo, operated per the `agency-client-vault`
+skill. Read the client's `_CLIENT.md` card first — and `tone.md` before
+drafting anything client-facing. Write decisions, commitments, and requests
+back per that skill's Two-Output and propagation rules. Client data never
+enters this public skills repo.
