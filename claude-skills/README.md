@@ -41,7 +41,10 @@ marketclick360-skills/
 │   ├── agency-weekly-report/  # Client reports + observability SOP
 │   ├── agency-content-engine/ # Delivery-to-content workflow + anonymization
 │   ├── agency-niche-scorecard/# Day-90 niche decision scoring
-│   └── agency-client-vault/   # Operating rules for the private client knowledge vault
+│   ├── agency-client-vault/   # Operating rules for the private client knowledge vault
+│   ├── brain-dump/            # Weekly brain dump → organized, energy-tagged task list
+│   ├── three-folder-system/   # Atlas / Projects / End Products / Archive file triage
+│   └── weekly-plan/           # Spiritually aligned weekly schedule with decision pressure
 └── README.md
 ```
 
@@ -52,6 +55,27 @@ as a loadable skill. `agency-client-vault` carries the conventions (AI-first
 notes, bi-temporal facts, propagation rules, scaffold script) for the vault
 itself, which lives in the **private** `agency-vault` repo — templates here,
 client data there, never mixed.
+
+`brain-dump` is a personal weekly system (Ali Brown's method): dump raw
+thoughts, and the skill extracts, categorizes, and energy-tags tasks against a
+one-time calibration profile, then runs an end-of-week review with carry-over.
+It follows the same privacy rule — the skill's rules live here, but the
+profile and weekly files live locally in `~/brain-dump/`, never in this repo.
+
+`three-folder-system` is its file-organization companion (Dan Harrison's
+method): every file is either thinking (`01 Atlas`), building (`02 Projects`),
+or finished (`03 End Products`). The skill scaffolds the folders, inventories
+clutter, proposes a sort with reasons (unclear items come back as decisions,
+never silent guesses), and only moves files after approval. The two skills
+chain naturally: parked brain-dump ideas → Atlas; finished weekly deliverables
+→ End Products.
+
+`weekly-plan` sits on top of both: a spiritually aligned weekly planner whose
+master prompt protects non-negotiable spiritual anchors first, capacity-checks
+the week (green/yellow/red), and applies decision pressure — every week names
+1–3 things to *finish* (→ End Products), a "Not This Week" list, and a YouTube
+research boundary so thinking never replaces building. Brain-dump output feeds
+its outcomes; its folder assignments execute via three-folder-system.
 
 ## How to organize a *complex* skill (the rules that matter)
 
