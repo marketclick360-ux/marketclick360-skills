@@ -8,7 +8,7 @@ Usage:
     python triage.py apply PLAN.tsv --base DIR --yes  # actually move
 
 PLAN.tsv format (one file per line, tab-separated):
-    relative/or/absolute/path<TAB>atlas|projects|end-products
+    relative/or/absolute/path<TAB>atlas|projects|end-products|archive
 
 scan never reads file contents and never moves anything. apply refuses moves
 outside --base and dry-runs unless --yes is given. Only printed output enters
@@ -22,6 +22,7 @@ FOLDERS = {
     "atlas": "01 Atlas",
     "projects": "02 Projects",
     "end-products": "03 End Products",
+    "archive": "04 Archive",
 }
 
 

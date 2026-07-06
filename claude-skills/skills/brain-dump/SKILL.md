@@ -62,6 +62,13 @@ Follow [reference/weekly-review.md](reference/weekly-review.md): summarize
 what got done, surface patterns, and carry pending tasks into next week's
 file (via the same `new_week.py` script with `--next`).
 
+## Works with `weekly-plan`
+
+If the user wants the organized tasks turned into an actual Monday–Sunday
+schedule, hand off to the `weekly-plan` skill — it owns scheduling (this
+skill never schedules) and enforces the spiritual anchors, capacity check,
+finishing pressure, and "not this week" decisions.
+
 ## Works with `three-folder-system`
 
 If the user also runs the Atlas / Projects / End Products folders (see the

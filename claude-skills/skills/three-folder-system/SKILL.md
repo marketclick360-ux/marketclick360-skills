@@ -14,6 +14,7 @@ Every file is exactly one of three things. That's the whole system:
 | **01 Atlas** (thinking) | "Is it just an idea or raw material?" | Notes, brainstorms, clippings, idea dumps, rough strategic drafts |
 | **02 Projects** (building) | "Am I working on it right now?" | Anything actively in progress |
 | **03 End Products** (heart) | "Is it finished?" | Final, polished, exported, delivered |
+| **04 Archive** | "Is it inactive or distracting?" | Dormant or distracting projects, parked out of sight |
 
 If a file doesn't fit cleanly, that's not a filing problem — it means the plan
 for that item isn't clear yet. Say so; the friction is the feature (it lets

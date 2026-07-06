@@ -23,7 +23,10 @@ For each file, ask the three questions — first "yes" wins:
 
 - **Old "in-progress" files** (working names, but untouched for months): the
   project is dormant. Don't guess — put it in **Unclear** and ask: "still
-  live, or should its useful parts go to Atlas and the rest be archived?"
+  live, or should its useful parts go to Atlas and the rest to 04 Archive?"
+- **Distracting or on-hold projects**: park in **04 Archive** with a
+  revisit rule — e.g. "sits in Atlas one month; if untouched, archive."
+  Archived ≠ deleted; it's out of sight so it stops competing for attention.
 - **Templates and reusable assets** (logos, boilerplate, blank forms): they're
   finished things you reuse → End Products.
 - **Reference material you act FROM but never edit** (contracts received,
@@ -37,9 +40,8 @@ For each file, ask the three questions — first "yes" wins:
 ## Project completion ritual
 
 When a project finishes: the deliverable moves to **End Products**, and the
-temporary working files get archived or deleted (user's call — offer a
-`_archive/` subfolder inside Projects for the cautious). Atlas source notes
-stay in Atlas; they may seed the next project.
+temporary working files move to **04 Archive** or get deleted (user's call).
+Atlas source notes stay in Atlas; they may seed the next project.
 
 ## Reusable cleanup prompt
 
@@ -49,8 +51,9 @@ they won't connect), hand them this:
 > I am setting up an "Atlas, Projects, End Products" three-folder system:
 > 01 Atlas = raw notes, ideas, clippings, rough drafts (thinking);
 > 02 Projects = files I am actively working on right now (building);
-> 03 End Products = final, polished, delivered files (finished).
-> Based on this list of files, sort each into one of the three categories and
+> 03 End Products = final, polished, delivered files (finished);
+> 04 Archive = inactive or distracting projects, parked out of sight.
+> Based on this list of files, sort each into one of the categories and
 > explain why in one line each. If a file doesn't clearly fit, put it in a
 > separate "Unclear" list with the question I'd need to answer to place it.
 > Here is the list: {paste file list}
