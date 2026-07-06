@@ -41,7 +41,8 @@ marketclick360-skills/
 │   ├── agency-weekly-report/  # Client reports + observability SOP
 │   ├── agency-content-engine/ # Delivery-to-content workflow + anonymization
 │   ├── agency-niche-scorecard/# Day-90 niche decision scoring
-│   └── agency-client-vault/   # Operating rules for the private client knowledge vault
+│   ├── agency-client-vault/   # Operating rules for the private client knowledge vault
+│   └── brain-dump/            # Weekly brain dump → organized, energy-tagged task list
 └── README.md
 ```
 
@@ -52,6 +53,12 @@ as a loadable skill. `agency-client-vault` carries the conventions (AI-first
 notes, bi-temporal facts, propagation rules, scaffold script) for the vault
 itself, which lives in the **private** `agency-vault` repo — templates here,
 client data there, never mixed.
+
+`brain-dump` is a personal weekly system (Ali Brown's method): dump raw
+thoughts, and the skill extracts, categorizes, and energy-tags tasks against a
+one-time calibration profile, then runs an end-of-week review with carry-over.
+It follows the same privacy rule — the skill's rules live here, but the
+profile and weekly files live locally in `~/brain-dump/`, never in this repo.
 
 ## How to organize a *complex* skill (the rules that matter)
 
