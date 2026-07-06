@@ -1,6 +1,6 @@
 ---
 name: weekly-plan
-description: Spiritually aligned weekly planning with decision pressure. Protects fixed spiritual anchors (service, meetings, family worship) first, capacity-checks the week (green/yellow/red), builds a realistic Monday–Sunday schedule, assigns work to Atlas/Projects/End Products/Archive, sets a YouTube research boundary, and names what to finish and what NOT to do. Use when asked to plan the week, do a Sunday reset, "help me plan this week" — or for the daily loop: "good morning" / "start my day" (today's blocks + the one must-do) and "check in" (evening three-question accountability review).
+description: Spiritually aligned weekly planning with decision pressure. Protects fixed spiritual anchors (service, meetings, family worship) first, capacity-checks the week (green/yellow/red), builds a realistic Monday–Sunday schedule, assigns work to Atlas/Projects/End Products/Archive, sets a YouTube research boundary, and names what to finish and what NOT to do. Use when asked to plan the week, do a Sunday reset, "help me plan this week" — or for the daily loop: "good morning" / "start my day" (today's blocks + the one must-do), "midday check" / "add something" (capture new items into today, the week, or Atlas), and "check in" / "recap" (evening recap with carry-forward of unfinished items, then the three accountability questions).
 argument-hint: [green|yellow|red]
 ---
 
@@ -29,30 +29,51 @@ about what to cut, finish, and ignore.
      decision-pressure sections are not optional.
    - If the week is overloaded, say clearly what must be cut. Kind, direct.
 
-## Daily check-in mode
+## Daily loop (three touchpoints)
 
-When the user says "check in", "daily check-in", "good morning", or "start my
-day", do NOT rebuild the plan — run the daily loop against the existing week
-plan:
+When the user says any of the trigger phrases below, do NOT rebuild the plan
+— run the daily loop against the existing week plan. Every touchpoint writes
+to the week file so nothing lives only in chat.
 
 **Morning ("good morning" / "start my day")** — under 1 minute of reading:
-1. Today's spiritual anchors and scheduled blocks, in order.
+1. Today's spiritual anchors and scheduled blocks, in order — including
+   anything carried forward from yesterday (marked ↩︎).
 2. The ONE thing that must happen today (from the week's Top 3 / Finishing
    List). Nothing else. No pep talk.
 
-**Evening ("check in")** — ask the three questions ONE AT A TIME, wait for
-each answer:
+**Midday ("midday check" / "add something")** — 2-minute capture, so new
+items never depend on memory:
+1. Ask: "What came up this morning — anything to add?"
+2. For each new item, place it immediately and say where it went:
+   *today* (name the block it fits in, or what it displaces — the afternoon
+   doesn't magically get bigger), *this week* (into the week plan), or
+   *Atlas* (idea, not a task). Appointments go straight to "transfer to your
+   calendar."
+3. Read back the rest of today in one line.
+
+**Evening ("check in" / "recap")** — 5 minutes, two parts, in this order:
+
+*Part 1 — Recap & carry-forward (nothing gets forgotten):*
+1. List today's blocks and ask which got done, partially done, or not done.
+2. For every NOT-done item ask once: "tomorrow, later this week, or park
+   it?" — default is tomorrow. Write it into tomorrow's schedule marked ↩︎,
+   or into the week plan, or into Atlas/parked. Confirm in one line where
+   each item landed. Nothing is allowed to simply vanish.
+3. Log the day under `## Check-ins` in the week file: done / carried / parked.
+
+*Part 2 — The three questions*, one at a time, waiting for each answer:
 1. Did I honor my spiritual priorities today — reading with notes, today's
    studies?
 2. Did I build/finish a real thing today, or only think and research?
 3. What needs to be simplified tomorrow?
 
-Then: record the answers in the week file under `## Check-ins`, and if answer
-3 names something, actually adjust tomorrow (move, shrink, or drop a block —
-tell the user the one change made). A missed day is data, not failure — never
-scold, never add motivational filler. If the user reports three "no" days in
-a row on the same question, say so plainly and suggest one structural change
-(smaller block, different time, or drop the commitment to Atlas).
+If answer 3 names something, actually adjust tomorrow (move, shrink, or drop
+a block — tell the user the one change made). A missed day is data, not
+failure — never scold, never add motivational filler. If the user reports
+three "no" days in a row on the same question, say so plainly and suggest one
+structural change (smaller block, different time, or drop to Atlas). If the
+same item carries forward three days running, stop moving it and ask whether
+to break it smaller, schedule it properly, or park it — the user decides.
 
 ## Decision pressure (why this skill exists)
 
