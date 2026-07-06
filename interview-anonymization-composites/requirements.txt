@@ -1,0 +1,4 @@
+# No external dependencies.
+# All scripts use only the Python 3.11+ standard library.
+# This file exists so the project layout is complete and future
+# additions have an obvious home.

@@ -1,0 +1,21 @@
+# Private source material — never commit raw transcripts
+transcripts/*
+!transcripts/README.md
+
+# Generated working files — all may contain sensitive derived content
+outputs/prepared_transcripts/*
+!outputs/prepared_transcripts/.gitkeep
+outputs/prompt_packets/*
+!outputs/prompt_packets/.gitkeep
+outputs/pattern_maps/*
+!outputs/pattern_maps/.gitkeep
+outputs/synthesis_maps/*
+!outputs/synthesis_maps/.gitkeep
+outputs/composites/*
+!outputs/composites/.gitkeep
+outputs/risk_checks/*
+!outputs/risk_checks/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
