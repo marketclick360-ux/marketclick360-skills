@@ -1,6 +1,6 @@
 ---
 name: weekly-plan
-description: Spiritually aligned weekly planning with decision pressure. Protects fixed spiritual anchors (service, meetings, family worship) first, capacity-checks the week (green/yellow/red), builds a realistic Monday–Sunday schedule, assigns work to Atlas/Projects/End Products/Archive, sets a YouTube research boundary, and names what to finish and what NOT to do. Use when asked to plan the week, do a Sunday reset, or "help me plan this week".
+description: Spiritually aligned weekly planning with decision pressure. Protects fixed spiritual anchors (service, meetings, family worship) first, capacity-checks the week (green/yellow/red), builds a realistic Monday–Sunday schedule, assigns work to Atlas/Projects/End Products/Archive, sets a YouTube research boundary, and names what to finish and what NOT to do. Use when asked to plan the week, do a Sunday reset, "help me plan this week" — or for the daily loop: "good morning" / "start my day" (today's blocks + the one must-do) and "check in" (evening three-question accountability review).
 argument-hint: [green|yellow|red]
 ---
 
@@ -28,6 +28,31 @@ about what to cut, finish, and ignore.
      a **Not This Week** list, and a YouTube research boundary — the
      decision-pressure sections are not optional.
    - If the week is overloaded, say clearly what must be cut. Kind, direct.
+
+## Daily check-in mode
+
+When the user says "check in", "daily check-in", "good morning", or "start my
+day", do NOT rebuild the plan — run the daily loop against the existing week
+plan:
+
+**Morning ("good morning" / "start my day")** — under 1 minute of reading:
+1. Today's spiritual anchors and scheduled blocks, in order.
+2. The ONE thing that must happen today (from the week's Top 3 / Finishing
+   List). Nothing else. No pep talk.
+
+**Evening ("check in")** — ask the three questions ONE AT A TIME, wait for
+each answer:
+1. Did I honor my spiritual priorities today — reading with notes, today's
+   studies?
+2. Did I build/finish a real thing today, or only think and research?
+3. What needs to be simplified tomorrow?
+
+Then: record the answers in the week file under `## Check-ins`, and if answer
+3 names something, actually adjust tomorrow (move, shrink, or drop a block —
+tell the user the one change made). A missed day is data, not failure — never
+scold, never add motivational filler. If the user reports three "no" days in
+a row on the same question, say so plainly and suggest one structural change
+(smaller block, different time, or drop the commitment to Atlas).
 
 ## Decision pressure (why this skill exists)
 
