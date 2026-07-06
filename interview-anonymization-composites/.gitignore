@@ -25,3 +25,6 @@ MANIFEST.csv
 # Python
 __pycache__/
 *.pyc
+
+# Reference material — never a source
+reference/
