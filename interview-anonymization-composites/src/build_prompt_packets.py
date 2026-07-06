@@ -33,6 +33,9 @@ TEMPLATES = {
     "risk": "04_identifiability_risk_check.md",
 }
 
+# Optional per-domain framing embedded in every packet when present.
+DOMAIN_CONTEXT_FILE = "00_domain_context.md"
+
 MIN_INTERVIEWS = 3  # the 3-source recurrence rule cannot work below this
 
 PRIVACY_BANNER = """\
@@ -63,10 +66,19 @@ def group_chunks() -> dict[str, list[Path]]:
     return dict(groups)
 
 
+def load_domain_context() -> str:
+    """Return the optional domain-context block, or an empty string."""
+    path = PROMPTS_DIR / DOMAIN_CONTEXT_FILE
+    if not path.is_file():
+        return ""
+    return path.read_text(encoding="utf-8").strip() + "\n\n---\n"
+
+
 def packet_header(title: str) -> str:
     today = datetime.date.today().isoformat()
     return (f"<!-- Prompt packet generated {today} — paste this whole file "
-            f"into Claude -->\n\n# {title}\n\n{PRIVACY_BANNER}\n---\n")
+            f"into Claude -->\n\n# {title}\n\n{PRIVACY_BANNER}\n---\n"
+            + load_domain_context())
 
 
 def build_stage1(groups: dict[str, list[Path]], template: str) -> list[Path]:
@@ -146,6 +158,12 @@ def main() -> int:
     print("=" * 68)
     print("BUILD PROMPT PACKETS")
     print("=" * 68)
+    if (PROMPTS_DIR / DOMAIN_CONTEXT_FILE).is_file():
+        print(f"Domain context: prompts/{DOMAIN_CONTEXT_FILE} embedded in "
+              "every packet")
+    else:
+        print("Domain context: none (add prompts/00_domain_context.md to "
+              "frame a specific interview set)")
 
     stage1 = build_stage1(groups, templates["extract"])
     stage2 = build_stage2(groups, templates["synthesis"])

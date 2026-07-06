@@ -52,6 +52,7 @@ interview-anonymization-composites/
 ├── transcripts/                  # YOUR input .txt/.md files (git-ignored)
 │   └── README.md
 ├── prompts/                      # Stage templates used by the packet builder
+│   ├── 00_domain_context.md      # optional per-domain framing (editable)
 │   ├── 01_extract_patterns.md
 │   ├── 02_cross_interview_synthesis.md
 │   ├── 03_composite_generation.md
@@ -111,6 +112,18 @@ be pasted whole into a Claude conversation:
 
 Every packet reminds the model that source text is private working material
 that must never be quoted in final outputs.
+
+### Domain context (optional)
+
+If `prompts/00_domain_context.md` exists, the packet builder embeds it in
+every packet so all four stages share the same framing: what the interview
+set is about, which theme areas to watch for, and any domain-specific
+identifier risks beyond the standard rules. The included version is tuned
+for Soft White Underbelly-style interviews (addiction, homelessness, sex
+work, incarceration, recovery — where aliases, named facilities, gang
+references, and recognizable public story beats are all treated as
+identifying). Edit or delete that file when working with a different
+transcript set.
 
 ## Recommended workflow
 
