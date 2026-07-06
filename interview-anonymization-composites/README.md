@@ -125,6 +125,33 @@ references, and recognizable public story beats are all treated as
 identifying). Edit or delete that file when working with a different
 transcript set.
 
+## Using the Claude Skill (recommended for repeated use)
+
+This repository ships a companion Skill at
+`.claude/skills/interview-pattern-anonymizer/` that turns the workflow into
+small, stateless Claude Code chats instead of one long conversation:
+
+- **The Skill is the reusable brain** — stage playbooks, privacy checklist,
+  token-saving checklist. It contains no transcripts and no private data.
+- **This project folder is the memory** — four git-ignored handoff files
+  keep state between chats: `PROJECT_STATE.md` (current truth),
+  `RUN_LOG.md` (append-only log), `NEXT_ACTION.md` (the single next task,
+  readable with zero context), and `MANIFEST.csv` (one row per interview,
+  neutral IDs only — never titles, URLs, or names).
+- **Each chat does one stage for one unit of work**: extract one pattern
+  map, or synthesize, or draft one composite, or run one risk check. After
+  Stage 1, raw transcripts are never opened again; each later stage reads
+  only the previous stage's output file.
+
+To use it: open a Claude Code session in this repository and say what you
+want (e.g. "process the next transcript" or invoke
+`/interview-pattern-anonymizer`). Claude reads `NEXT_ACTION.md`, does that
+one task, saves results into `outputs/`, updates the handoff files, and
+tells you what the next chat should do. The Python scripts and the
+paste-into-Claude prompt packets in `outputs/prompt_packets/` still work
+exactly as described below — the Skill simply automates the same stages
+inside Claude Code.
+
 ## Recommended workflow
 
 **Step 1** — Place local transcript `.txt` or `.md` files in `/transcripts`.

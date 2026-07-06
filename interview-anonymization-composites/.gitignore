@@ -16,6 +16,12 @@ outputs/composites/*
 outputs/risk_checks/*
 !outputs/risk_checks/.gitkeep
 
+# Skill handoff files — workflow state may reference private material
+PROJECT_STATE.md
+RUN_LOG.md
+NEXT_ACTION.md
+MANIFEST.csv
+
 # Python
 __pycache__/
 *.pyc
