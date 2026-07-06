@@ -49,6 +49,12 @@ Tone check: a light week is data, not failure. No productivity guilt.
    born. Mention any idea the user seemed excited about and ask if it should
    become a task.
 
+## Step 3.5 — File the finished work (three-folder users only)
+
+If the user runs the `three-folder-system` skill: remind them that any
+deliverable produced by a **Done** task belongs in `03 End Products`, and its
+temporary working files can be archived or deleted. One sentence, no nagging.
+
 ## Step 4 — Close
 
 One-line send-off summarizing the week ("6 done, 2 carried, load was

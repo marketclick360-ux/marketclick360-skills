@@ -42,7 +42,8 @@ marketclick360-skills/
 │   ├── agency-content-engine/ # Delivery-to-content workflow + anonymization
 │   ├── agency-niche-scorecard/# Day-90 niche decision scoring
 │   ├── agency-client-vault/   # Operating rules for the private client knowledge vault
-│   └── brain-dump/            # Weekly brain dump → organized, energy-tagged task list
+│   ├── brain-dump/            # Weekly brain dump → organized, energy-tagged task list
+│   └── three-folder-system/   # Atlas / Projects / End Products file triage
 └── README.md
 ```
 
@@ -59,6 +60,14 @@ thoughts, and the skill extracts, categorizes, and energy-tags tasks against a
 one-time calibration profile, then runs an end-of-week review with carry-over.
 It follows the same privacy rule — the skill's rules live here, but the
 profile and weekly files live locally in `~/brain-dump/`, never in this repo.
+
+`three-folder-system` is its file-organization companion (Dan Harrison's
+method): every file is either thinking (`01 Atlas`), building (`02 Projects`),
+or finished (`03 End Products`). The skill scaffolds the folders, inventories
+clutter, proposes a sort with reasons (unclear items come back as decisions,
+never silent guesses), and only moves files after approval. The two skills
+chain naturally: parked brain-dump ideas → Atlas; finished weekly deliverables
+→ End Products.
 
 ## How to organize a *complex* skill (the rules that matter)
 

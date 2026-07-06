@@ -69,6 +69,9 @@ starting with the profile's "first thing to drop".
 ### Ideas parked
 - {idea}
 
+<!-- If the user runs the three-folder system, offer to also append these to
+     an ideas note in their 01 Atlas folder — ideas are Atlas material. -->
+
 ### Needs clarification
 - "{original fragment}" — what did you mean?
 

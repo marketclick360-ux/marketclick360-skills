@@ -62,6 +62,15 @@ Follow [reference/weekly-review.md](reference/weekly-review.md): summarize
 what got done, surface patterns, and carry pending tasks into next week's
 file (via the same `new_week.py` script with `--next`).
 
+## Works with `three-folder-system`
+
+If the user also runs the Atlas / Projects / End Products folders (see the
+`three-folder-system` skill), the weekly flow maps onto it directly: the raw
+dump and **Ideas parked** are Atlas material (offer to append parked ideas to
+an ideas note in `01 Atlas`), tasks being acted on correspond to `02 Projects`,
+and at review time finished deliverables belong in `03 End Products`. Suggest
+the pairing once if the user seems to have file clutter; don't push it.
+
 ## Output
 
 Done means: the week file is saved with raw dump preserved and an organized,
