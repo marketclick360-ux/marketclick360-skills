@@ -1,0 +1,35 @@
+{
+  "_readme": "IRMAA tables keyed by PREMIUM year. Premium year Y uses MAGI from the tax return for year Y-2. Add a new year each November when CMS publishes its Part B fact sheet. Only add years with status 'official'.",
+  "2026": {
+    "status": "official",
+    "source": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles",
+    "source_date": "2025-11-14",
+    "verified_on": "2026-11-06",
+    "magi_tax_year": 2024,
+    "part_b_standard": 202.90,
+    "part_b_deductible": 283,
+    "tiers": {
+      "single": [
+        {"upper": 109000, "upper_inclusive": true,  "b_adj": 0.00,   "d_adj": 0.00},
+        {"upper": 137000, "upper_inclusive": true,  "b_adj": 81.20,  "d_adj": 14.50},
+        {"upper": 171000, "upper_inclusive": true,  "b_adj": 202.90, "d_adj": 37.50},
+        {"upper": 205000, "upper_inclusive": true,  "b_adj": 324.60, "d_adj": 60.40},
+        {"upper": 500000, "upper_inclusive": false, "b_adj": 446.30, "d_adj": 83.30},
+        {"upper": null,   "upper_inclusive": false, "b_adj": 487.00, "d_adj": 91.00}
+      ],
+      "joint": [
+        {"upper": 218000, "upper_inclusive": true,  "b_adj": 0.00,   "d_adj": 0.00},
+        {"upper": 274000, "upper_inclusive": true,  "b_adj": 81.20,  "d_adj": 14.50},
+        {"upper": 342000, "upper_inclusive": true,  "b_adj": 202.90, "d_adj": 37.50},
+        {"upper": 410000, "upper_inclusive": true,  "b_adj": 324.60, "d_adj": 60.40},
+        {"upper": 750000, "upper_inclusive": false, "b_adj": 446.30, "d_adj": 83.30},
+        {"upper": null,   "upper_inclusive": false, "b_adj": 487.00, "d_adj": 91.00}
+      ],
+      "mfs": [
+        {"upper": 109000, "upper_inclusive": true,  "b_adj": 0.00,   "d_adj": 0.00},
+        {"upper": 391000, "upper_inclusive": false, "b_adj": 446.30, "d_adj": 83.30},
+        {"upper": null,   "upper_inclusive": false, "b_adj": 487.00, "d_adj": 91.00}
+      ]
+    }
+  }
+}

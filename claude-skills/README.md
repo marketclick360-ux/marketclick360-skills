@@ -44,7 +44,8 @@ marketclick360-skills/
 │   ├── agency-client-vault/   # Operating rules for the private client knowledge vault
 │   ├── brain-dump/            # Weekly brain dump → organized, energy-tagged task list
 │   ├── three-folder-system/   # Atlas / Projects / End Products / Archive file triage
-│   └── weekly-plan/           # Spiritually aligned weekly schedule with decision pressure
+│   ├── weekly-plan/           # Spiritually aligned weekly schedule with decision pressure
+│   └── irmaa-check/           # Medicare IRMAA tier, SSA-44 screen, planning what-ifs
 └── README.md
 ```
 
@@ -76,6 +77,13 @@ the week (green/yellow/red), and applies decision pressure — every week names
 1–3 things to *finish* (→ End Products), a "Not This Week" list, and a YouTube
 research boundary so thinking never replaces building. Brain-dump output feeds
 its outcomes; its folder assignments execute via three-folder-system.
+
+`irmaa-check` runs a Medicare IRMAA review for a client: tier and Part B/D
+surcharges from MAGI (official CMS figures in `reference/brackets.json`, math in
+`scripts/irmaa.py`), bracket-cliff headroom, an SSA-44 life-changing-event
+screen with savings estimate, and "what-if" modeling for Roth conversions or
+gains. Ends with a plain-language client summary and compliance gates (§7216,
+CMS cross-selling, SSA fees). Add each new year's CMS table every November.
 
 ## How to organize a *complex* skill (the rules that matter)
 
